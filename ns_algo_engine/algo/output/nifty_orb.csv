@@ -1,0 +1,2 @@
+trade_id,symbol,instrument_type,position_type,action,position_state,entry_datetime,exit_datetime,entry_price,exit_price,lot_size,profit_loss,cumulative_pnl
+20,BAJAJFINSV,EQ,short,closed,closed,2026-01-01 09:34:00,2026-01-01 15:00:00,2032.4,2035.8,0,-3.4,-3.4

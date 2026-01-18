@@ -1,0 +1,337 @@
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: Cannot localize tz-aware Timestamp, use tz_convert for conversions
+EXPORT_FAIL: Cannot localize tz-aware Timestamp, use tz_convert for conversions
+EXPORT_FAIL: Cannot localize tz-aware Timestamp, use tz_convert for conversions
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               '2025-12-05 09:25:00+05:30', '2025-12-05 09:26:00+05:30',
+               '2025-12-05 09:27:00+05:30', '2025-12-05 09:28:00+05:30',
+               '2025-12-05 09:29:00+05:30', '2025-12-05 09:30:00+05:30',
+               '2025-12-05 09:31:00+05:30', '2025-12-05 09:32:00+05:30',
+               '2025-12-05 09:33:00+05:30', '2025-12-05 09:34:00+05:30',
+               '2025-12-05 09:35:00+05:30', '2025-12-05 09:36:00+05:30',
+               '2025-12-05 09:37:00+05:30', '2025-12-05 09:38:00+05:30',
+               '2025-12-05 09:39:00+05:30', '2025-12-05 09:40:00+05:30',
+               '2025-12-05 09:41:00+05:30', '2025-12-05 09:42:00+05:30',
+               '2025-12-05 09:43:00+05:30', '2025-12-05 09:44:00+05:30',
+               '2025-12-05 09:45:00+05:30', '2025-12-05 09:46:00+05:30',
+               '2025-12-05 09:47:00+05:30', '2025-12-05 09:48:00+05:30',
+               '2025-12-05 09:49:00+05:30', '2025-12-05 09:50:00+05:30',
+               '2025-12-05 09:51:00+05:30', '2025-12-05 09:52:00+05:30',
+               '2025-12-05 09:53:00+05:30', '2025-12-05 09:54:00+05:30',
+               '2025-12-05 09:55:00+05:30', '2025-12-05 09:56:00+05:30',
+               '2025-12-05 09:57:00+05:30', '2025-12-05 09:58:00+05:30',
+               '2025-12-05 09:59:00+05:30', '2025-12-05 10:00:00+05:30',
+               '2025-12-05 10:01:00+05:30', '2025-12-05 10:02:00+05:30',
+               '2025-12-05 10:03:00+05:30', '2025-12-05 10:04:00+05:30',
+               '2025-12-05 10:05:00+05:30', '2025-12-05 10:06:00+05:30',
+               '2025-12-05 10:07:00+05:30', '2025-12-05 10:08:00+05:30',
+               '2025-12-05 10:09:00+05:30', '2025-12-05 10:10:00+05:30',
+               '2025-12-05 10:11:00+05:30', '2025-12-05 10:12:00+05:30',
+               '2025-12-05 10:13:00+05:30', '2025-12-05 10:14:00+05:30',
+               '2025-12-05 10:15:00+05:30', '2025-12-05 10:16:00+05:30',
+               '2025-12-05 10:17:00+05:30', '2025-12-05 10:18:00+05:30',
+               '2025-12-05 10:19:00+05:30', '2025-12-05 10:20:00+05:30',
+               '2025-12-05 10:21:00+05:30', '2025-12-05 10:22:00+05:30',
+               '2025-12-05 10:23:00+05:30', '2025-12-05 10:24:00+05:30',
+               '2025-12-05 10:25:00+05:30', '2025-12-05 10:26:00+05:30',
+               '2025-12-05 10:27:00+05:30', '2025-12-05 10:28:00+05:30',
+               '2025-12-05 10:29:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               '2025-12-05 09:25:00+05:30', '2025-12-05 09:26:00+05:30',
+               '2025-12-05 09:27:00+05:30', '2025-12-05 09:28:00+05:30',
+               '2025-12-05 09:29:00+05:30', '2025-12-05 09:30:00+05:30',
+               '2025-12-05 09:31:00+05:30', '2025-12-05 09:32:00+05:30',
+               '2025-12-05 09:33:00+05:30', '2025-12-05 09:34:00+05:30',
+               '2025-12-05 09:35:00+05:30', '2025-12-05 09:36:00+05:30',
+               '2025-12-05 09:37:00+05:30', '2025-12-05 09:38:00+05:30',
+               '2025-12-05 09:39:00+05:30', '2025-12-05 09:40:00+05:30',
+               '2025-12-05 09:41:00+05:30', '2025-12-05 09:42:00+05:30',
+               '2025-12-05 09:43:00+05:30', '2025-12-05 09:44:00+05:30',
+               '2025-12-05 09:45:00+05:30', '2025-12-05 09:46:00+05:30',
+               '2025-12-05 09:47:00+05:30', '2025-12-05 09:48:00+05:30',
+               '2025-12-05 09:49:00+05:30', '2025-12-05 09:50:00+05:30',
+               '2025-12-05 09:51:00+05:30', '2025-12-05 09:52:00+05:30',
+               '2025-12-05 09:53:00+05:30', '2025-12-05 09:54:00+05:30',
+               '2025-12-05 09:55:00+05:30', '2025-12-05 09:56:00+05:30',
+               '2025-12-05 09:57:00+05:30', '2025-12-05 09:58:00+05:30',
+               '2025-12-05 09:59:00+05:30', '2025-12-05 10:00:00+05:30',
+               '2025-12-05 10:01:00+05:30', '2025-12-05 10:02:00+05:30',
+               '2025-12-05 10:03:00+05:30', '2025-12-05 10:04:00+05:30',
+               '2025-12-05 10:05:00+05:30', '2025-12-05 10:06:00+05:30',
+               '2025-12-05 10:07:00+05:30', '2025-12-05 10:08:00+05:30',
+               '2025-12-05 10:09:00+05:30', '2025-12-05 10:10:00+05:30',
+               '2025-12-05 10:11:00+05:30', '2025-12-05 10:12:00+05:30',
+               '2025-12-05 10:13:00+05:30', '2025-12-05 10:14:00+05:30',
+               '2025-12-05 10:15:00+05:30', '2025-12-05 10:16:00+05:30',
+               '2025-12-05 10:17:00+05:30', '2025-12-05 10:18:00+05:30',
+               '2025-12-05 10:19:00+05:30', '2025-12-05 10:20:00+05:30',
+               '2025-12-05 10:21:00+05:30', '2025-12-05 10:22:00+05:30',
+               '2025-12-05 10:23:00+05:30', '2025-12-05 10:24:00+05:30',
+               '2025-12-05 10:25:00+05:30', '2025-12-05 10:26:00+05:30',
+               '2025-12-05 10:27:00+05:30', '2025-12-05 10:28:00+05:30',
+               '2025-12-05 10:29:00+05:30', '2025-12-05 10:30:00+05:30',
+               '2025-12-05 10:31:00+05:30', '2025-12-05 10:32:00+05:30',
+               '2025-12-05 10:33:00+05:30', '2025-12-05 10:34:00+05:30',
+               '2025-12-05 10:35:00+05:30', '2025-12-05 10:36:00+05:30',
+               '2025-12-05 10:37:00+05:30', '2025-12-05 10:38:00+05:30',
+               '2025-12-05 10:39:00+05:30', '2025-12-05 10:40:00+05:30',
+               '2025-12-05 10:41:00+05:30', '2025-12-05 10:42:00+05:30',
+               '2025-12-05 10:43:00+05:30', '2025-12-05 10:44:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-05 14:51:00+05:30', '2025-12-05 14:52:00+05:30',
+               '2025-12-05 14:53:00+05:30', '2025-12-05 14:54:00+05:30',
+               '2025-12-05 14:55:00+05:30', '2025-12-05 14:56:00+05:30',
+               '2025-12-05 14:57:00+05:30', '2025-12-05 14:58:00+05:30',
+               '2025-12-05 14:59:00+05:30', '2025-12-05 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=346, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-08 11:34:00+05:30', '2025-12-08 11:35:00+05:30',
+               '2025-12-08 11:36:00+05:30', '2025-12-08 11:37:00+05:30',
+               '2025-12-08 11:38:00+05:30', '2025-12-08 11:39:00+05:30',
+               '2025-12-08 11:40:00+05:30', '2025-12-08 11:41:00+05:30',
+               '2025-12-08 11:42:00+05:30', '2025-12-08 11:43:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=524, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-19 15:22:00+05:30', '2025-12-19 15:23:00+05:30',
+               '2025-12-19 15:24:00+05:30', '2025-12-19 15:25:00+05:30',
+               '2025-12-19 15:26:00+05:30', '2025-12-19 15:27:00+05:30',
+               '2025-12-19 15:28:00+05:30', '2025-12-19 15:29:00+05:30',
+               '2025-12-22 09:15:00+05:30', '2025-12-22 09:16:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=4127, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-22 14:51:00+05:30', '2025-12-22 14:52:00+05:30',
+               '2025-12-22 14:53:00+05:30', '2025-12-22 14:54:00+05:30',
+               '2025-12-22 14:55:00+05:30', '2025-12-22 14:56:00+05:30',
+               '2025-12-22 14:57:00+05:30', '2025-12-22 14:58:00+05:30',
+               '2025-12-22 14:59:00+05:30', '2025-12-22 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=4471, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-23 14:51:00+05:30', '2025-12-23 14:52:00+05:30',
+               '2025-12-23 14:53:00+05:30', '2025-12-23 14:54:00+05:30',
+               '2025-12-23 14:55:00+05:30', '2025-12-23 14:56:00+05:30',
+               '2025-12-23 14:57:00+05:30', '2025-12-23 14:58:00+05:30',
+               '2025-12-23 14:59:00+05:30', '2025-12-23 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=4846, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-24 14:51:00+05:30', '2025-12-24 14:52:00+05:30',
+               '2025-12-24 14:53:00+05:30', '2025-12-24 14:54:00+05:30',
+               '2025-12-24 14:55:00+05:30', '2025-12-24 14:56:00+05:30',
+               '2025-12-24 14:57:00+05:30', '2025-12-24 14:58:00+05:30',
+               '2025-12-24 14:59:00+05:30', '2025-12-24 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=5221, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-26 12:24:00+05:30', '2025-12-26 12:25:00+05:30',
+               '2025-12-26 12:26:00+05:30', '2025-12-26 12:27:00+05:30',
+               '2025-12-26 12:28:00+05:30', '2025-12-26 12:29:00+05:30',
+               '2025-12-26 12:30:00+05:30', '2025-12-26 12:31:00+05:30',
+               '2025-12-26 12:32:00+05:30', '2025-12-26 12:33:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=5449, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-31 12:15:00+05:30', '2025-12-31 12:16:00+05:30',
+               '2025-12-31 12:17:00+05:30', '2025-12-31 12:18:00+05:30',
+               '2025-12-31 12:19:00+05:30', '2025-12-31 12:20:00+05:30',
+               '2025-12-31 12:21:00+05:30', '2025-12-31 12:22:00+05:30',
+               '2025-12-31 12:23:00+05:30', '2025-12-31 12:24:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=6565, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2025-12-31 14:51:00+05:30', '2025-12-31 14:52:00+05:30',
+               '2025-12-31 14:53:00+05:30', '2025-12-31 14:54:00+05:30',
+               '2025-12-31 14:55:00+05:30', '2025-12-31 14:56:00+05:30',
+               '2025-12-31 14:57:00+05:30', '2025-12-31 14:58:00+05:30',
+               '2025-12-31 14:59:00+05:30', '2025-12-31 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=6721, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2026-01-01 14:51:00+05:30', '2026-01-01 14:52:00+05:30',
+               '2026-01-01 14:53:00+05:30', '2026-01-01 14:54:00+05:30',
+               '2026-01-01 14:55:00+05:30', '2026-01-01 14:56:00+05:30',
+               '2026-01-01 14:57:00+05:30', '2026-01-01 14:58:00+05:30',
+               '2026-01-01 14:59:00+05:30', '2026-01-01 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=7096, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2026-01-02 14:51:00+05:30', '2026-01-02 14:52:00+05:30',
+               '2026-01-02 14:53:00+05:30', '2026-01-02 14:54:00+05:30',
+               '2026-01-02 14:55:00+05:30', '2026-01-02 14:56:00+05:30',
+               '2026-01-02 14:57:00+05:30', '2026-01-02 14:58:00+05:30',
+               '2026-01-02 14:59:00+05:30', '2026-01-02 15:00:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=7471, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot convert input [DatetimeIndex(['2025-12-05 09:15:00+05:30', '2025-12-05 09:16:00+05:30',
+               '2025-12-05 09:17:00+05:30', '2025-12-05 09:18:00+05:30',
+               '2025-12-05 09:19:00+05:30', '2025-12-05 09:20:00+05:30',
+               '2025-12-05 09:21:00+05:30', '2025-12-05 09:22:00+05:30',
+               '2025-12-05 09:23:00+05:30', '2025-12-05 09:24:00+05:30',
+               ...
+               '2026-01-02 15:20:00+05:30', '2026-01-02 15:21:00+05:30',
+               '2026-01-02 15:22:00+05:30', '2026-01-02 15:23:00+05:30',
+               '2026-01-02 15:24:00+05:30', '2026-01-02 15:25:00+05:30',
+               '2026-01-02 15:26:00+05:30', '2026-01-02 15:27:00+05:30',
+               '2026-01-02 15:28:00+05:30', '2026-01-02 15:29:00+05:30'],
+              dtype='datetime64[ns, Asia/Kolkata]', name='timestamp', length=7500, freq=None)] of type <class 'pandas.core.indexes.datetimes.DatetimeIndex'> to Timestamp
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Cannot subtract tz-naive and tz-aware datetime-like objects.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: Already tz-aware, use tz_convert to convert.
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: list index out of range
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values
+EXPORT_FAIL: Can only use .dt accessor with datetimelike values

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Database and Symbol Configuration -->
+    <db_dir>data</db_dir>
+    <db_file>06jan26_history.db</db_file>
+    <symbol>BAJAJFINSV</symbol>
+    <underlying>BAJAJFINSV</underlying>
+    <segment>INDICES</segment>
+    <instrument_type>EQ</instrument_type>
+    <exchange>NSE</exchange>
+    
+    <!-- Strategy Configuration -->
+    <strategy>
+        <strategy_name>ORB</strategy_name>
+        <strategy_params>
+            <range_minutes>15</range_minutes>
+            <max_trades_per_day>3</max_trades_per_day>
+            <candle_granularity>minute</candle_granularity>
+            <stop_loss_pct>0.1</stop_loss_pct>
+            <trailing_stop_pct>0.2</trailing_stop_pct>
+            <target_pct></target_pct>
+            <require_boundary_touch>true</require_boundary_touch>
+        </strategy_params>
+    </strategy>
+    
+    <!-- Data Configuration -->
+    <data_mode>historical</data_mode>
+    <use_multi_db>false</use_multi_db>
+    <!--<start_date>2025-09-05</start_date>
+    <end_date>2025-09-05</end_date>-->
+    <start_time>09:30</start_time>
+    <end_time>15:00</end_time>
+    <preprocessing_days>3</preprocessing_days>
+    <expiry_index>0</expiry_index>
+    
+    <!-- Trading Configuration -->
+    <pl_percent>0.5</pl_percent>
+    <initialization_periods>0</initialization_periods>
+    <live>false</live>
+    
+    <!-- Output Configuration -->
+    <trades_csv>output/nifty_orb.csv</trades_csv>
+    <export_csv>output/nifty_orb_prices_5_tv.html</export_csv>
+    
+    <!-- Candle Configuration -->
+    <candle_freq>5min</candle_freq>
+    
+    <!-- Chart Configuration -->
+    <chart_library>tv</chart_library>
+    <tv_autoupdate>true</tv_autoupdate>
+    <tv_update_every>1</tv_update_every>
+    <tv_refresh_seconds>3</tv_refresh_seconds>
+    <tv_auto_open>true</tv_auto_open>
+    <tv_pl_multiline>true</tv_pl_multiline>
+    <tv_pl_color_scale>true</tv_pl_color_scale>
+    <tv_pl_padding>1</tv_pl_padding>
+    <show_pl_line>true</show_pl_line>
+    <pl_line_hover_only>true</pl_line_hover_only>
+    <tv_pl_separate_panel>true</tv_pl_separate_panel>
+    <tv_volume_ratio>0.25</tv_volume_ratio>
+    <volume_mode>tick_count</volume_mode>
+</config>
