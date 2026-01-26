@@ -1,0 +1,11 @@
+pandas>=1.5.0
+numpy
+numba
+plotly
+kaleido
+mplfinance
+matplotlib
+setuptools>=65.0
+
+# Note: nslogger is included as a local package in the nslogger/ directory
+# No pip installation required - Python will import it directly from the project
